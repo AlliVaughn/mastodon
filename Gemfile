@@ -13,6 +13,7 @@ gem 'puma'
 
 gem 'hamlit-rails'
 gem 'pg'
+# gem 'sqlite3', '~> 1.3', '>= 1.3.11'
 gem 'pghero'
 gem 'dotenv-rails'
 gem 'font-awesome-rails'

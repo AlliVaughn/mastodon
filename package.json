@@ -1,6 +1,6 @@
 {
   "name": "mastodon",
-  "license" : "AGPL-3.0",
+  "license": "AGPL-3.0",
   "scripts": {
     "start": "babel-node ./streaming/index.js --presets es2015,stage-2",
     "storybook": "start-storybook -p 9001 -c storybook",
@@ -74,7 +74,8 @@
     "uuid": "^3.0.1",
     "webpack": "^2.2.1",
     "websocket.js": "^0.1.7",
-    "ws": "^2.1.0"
+    "ws": "^2.1.0",
+    "fsevents": "*"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.2",
@@ -84,5 +85,20 @@
   },
   "optionalDependencies": {
     "fsevents": "*"
-  }
+  },
+  "description": "Mastodon ========",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlliVaughn/mastodon.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/AlliVaughn/mastodon/issues"
+  },
+  "homepage": "https://github.com/AlliVaughn/mastodon#readme"
 }
