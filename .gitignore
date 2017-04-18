@@ -35,6 +35,9 @@ config/deploy/*
 # Ignore postgres + redis volume optionally created by docker-compose
 postgres
 redis
+redis-stable.tar.gz
+redis-stable/
+
 
 # Ignore Apple files
 .DS_Store
